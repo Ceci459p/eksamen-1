@@ -176,6 +176,15 @@ h1 {
     font-weight: normal;
  }
 
+ hr.solid {
+     border: none;
+     height: 1px;
+     background: #3c3c3c;
+     margin: 20px;
+     margin-top: -10px;
+     margin-bottom: 40px;
+ }
+
  p {
      font-family: var(--p-text);
      font-size: 16px;
@@ -212,6 +221,49 @@ h1 {
  }
 
 
+ /* Om mig/Kontaktside */
+
+ .contacts {
+     width: 40px;
+     height: 30px;
+     margin-left: 20px;
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 50px;
+ }
+
+ .info {
+     display: flex;
+     flex-direction: column;
+     margin-left: 70px;
+     margin-top: -75px;
+     font-size: 14px;
+     margin-bottom: 50px;
+ }
+
+
+
+
+ /*Footer*/
+
+ .footer-container {
+     background: var(--maincolor);
+     height: 60px;
+ }
+ .footer-text {
+     font-size: 10px;
+     align-content: center;
+     padding-top: 15px;
+ }
+
+ .socials {
+     width: 30px;
+     height: 30px;
+     float: right;
+     display: block;
+     padding: 5px;
+     margin-top: -30px;
+ }
 
 
 
