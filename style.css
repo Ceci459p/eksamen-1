@@ -137,10 +137,30 @@ a {
 }
 
 
+/* SEKTION 1 - Intro*/
+
+h1 {
+    font-family: var(--h-text);
+    color: var(--text-color);
+}
+
+p {
+    font-family: var(--h-text);
+    color: var(--text-color);
+    font-size: 25px;
+    line-height: 1.5em;
+    margin-top: 80px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 
 
-@media screen and (min-width: 666px) {
+
+
+
+@media screen and (min-width: 780px) {
 
     .header {
         height: 80px;
