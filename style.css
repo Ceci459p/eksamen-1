@@ -5,7 +5,7 @@
     --maincolor: #E4DAC2;
     --btncolor: #FFE9B8;
     --text-color: #3c3c3c;
-    --h-text: 'Minerva Modern', sans-serif;
+    --h-text: 'minerva-modern', sans-serif;
     --p-text: 'Avenir Light', sans-serif;
 }
 
@@ -13,13 +13,165 @@
 
 body {
     background-color: #fcfcfc;
+    margin: 10px;
 }
 
-.top-nav {
-    color: var(--maincolor);
-}
+/* BY CL logo - img*/
 
 .logo {
     width: 50px;
     height: 50px;
 }
+
+a {
+    color: var(--text-color); 
+}
+
+/* navigation og burgermenu*/
+
+.header {
+    background-color: var(--maincolor);
+    position: fixed;
+    z-index: 3;
+    width: 95.2%;
+    height: 60px;
+}
+
+.header ul {
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+}
+
+.header ul a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-family: var(--h-text);
+    font-style: normal;
+    font-weight: 100;
+    text-align: center;
+    font-size: 20px;
+}
+
+.header .logo {
+    float: left;
+    display: block;
+    padding-left: 10px;
+    margin: 5px;
+}
+
+.header .menu-content {
+    clear: both;
+    max-height:0;
+    transition:max-height .2s ease-out;
+}
+
+/* Burgermenu ikon*/
+
+.header .menu-icon {
+    padding: 28px 20px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+
+/*Child til Label - midterste bar til burgermenu*/
+
+.header .menu-icon .nav-icon {
+    background:#3c3c3c;
+    display: block;
+    height: 2px;
+    width: 18px;
+    position: relative;
+    transition: background .2s ease-out;
+}
+
+/* top og bund burgermenu -pseudoelementer*/
+
+.header .menu-icon .nav-icon:before {
+    background:#3c3c3c;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition:all .2s ease-out;
+    top: 5px
+}
+
+.header .menu-icon .nav-icon:after {
+    background:#3c3c3c;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition:all .2s ease-out;
+    top: -5px
+}
+
+.header .menu-btn {
+    display: none;
+}
+
+
+/* X-transition - luk-effekt på burgermenu */
+
+.header .menu-btn:checked ~ .menu-content {
+    max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon {
+    background: transparent;
+
+}
+.header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+    transform: rotate(-45deg);
+    top: 0;
+}
+.header .menu-btn:checked ~ .menu-icon .nav-icon:after {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+
+
+
+
+@media screen and (min-width: 666px) {
+
+    .header {
+        height: 80px;
+        width: 98.5%;
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+        padding-top: 5px;
+    }
+
+    .header li {
+        float: left;
+    }
+
+    .header li a {
+        padding: 12px 30px;
+        font-size: 20px;
+    }
+
+    .header .menu-content {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+
+    .header .menu-icon {
+        display: none;
+    }
+
+
+}
+
+
