@@ -162,7 +162,6 @@ h1 {
 .front-pic {
     width:300px;
     height: 400px;
-    margin-left: 10px;
     opacity: 100%;
    
 }
@@ -182,6 +181,7 @@ h1 {
      font-size: 16px;
      margin-top: 7px;
      margin: 10px;
+     line-height: 1.5em;
  }
 
  h3 {
@@ -193,7 +193,7 @@ h1 {
  }
 
  img {
-     width: 300px;
+     width: 275px;
      height: 200px;
      opacity: 90%;
  }
@@ -205,7 +205,7 @@ h1 {
  }
 
  .cards {
-     width: 300px;
+     width: 275px;
      background: var(--body);
      margin-bottom: 20px;
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
