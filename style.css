@@ -39,7 +39,7 @@ a {
     list-style: none;
     overflow: hidden;
     padding: 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2)
 }
 
 .header ul a {
@@ -160,9 +160,10 @@ h1 {
 }
 
 .front-pic {
-    width:300px;
+    widows: 280px;
     height: 400px;
     opacity: 100%;
+    margin-left: 10px;
    
 }
 
@@ -220,6 +221,13 @@ h1 {
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
  }
 
+ .arrow-btn img{
+     width: 30px;
+     height: 30px;
+     display: block;
+     float: right;
+ }
+
 
  /* Om mig/Kontaktside */
 
@@ -249,17 +257,22 @@ h1 {
  .footer-container {
      background: var(--maincolor);
      height: 60px;
+     display: flex;
  }
+
+ .footer-item {
+     display: flex;
+     flex-direction: row;
+ }
+
  .footer-text {
      font-size: 10px;
      align-content: center;
-     padding-top: 15px;
  }
 
  .socials {
      width: 30px;
      height: 30px;
-     float: right;
      display: block;
      padding: 5px;
      margin-top: -30px;
