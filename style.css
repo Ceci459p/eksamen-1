@@ -270,7 +270,7 @@ h1 {
     background: var(--maincolor);
     height: 380px;
     margin: 10px;
-    margin-left: 15px;
+    margin-left: 12px;
 }
 
 .skills .h1 {
@@ -311,7 +311,7 @@ hr.solid {
     background: var(--maincolor);
     height: 300px;
     margin: 10px;
-    margin-left: 15px;
+    margin-left: 12px;
     margin-top:-50px;
 }
 
