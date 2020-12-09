@@ -145,7 +145,7 @@ a {
 h1 {
     font-family: var(--h-text);
     color: var(--text-color);
-    font-size: 20px;
+    font-size: 25px;
     font-weight: normal;
     text-align: center;
     margin-top: 50px;
@@ -163,10 +163,9 @@ h1 {
 }
 
 .front-pic {
-    width: 300px;
-    height: 420px;
-    opacity: 100%;
-    margin-left: 10px;
+    width: 350px;
+    height: 500px;
+    margin-left: 30px;
    
 }
 
@@ -180,13 +179,13 @@ h1 {
     font-weight: normal;
  }
 
- hr.solid {
+ hr.hr1{
      border: none;
      height: 1px;
      background: #3c3c3c;
      margin: 40px;
-     margin-top: -10px;
-     margin-bottom: 40px;
+     margin-top: 12px;
+     margin-bottom: 0;
  }
 
  p {
@@ -195,18 +194,19 @@ h1 {
      margin-top: 7px;
      margin: 10px;
      line-height: 1.5em;
+     letter-spacing: 1.5px;
  }
 
  h3 {
-     font-size: 16px;
+     font-size: 20px;
      font-family: var(--h-text);
      padding:0;
-     margin-top:5px;
+     margin-top:20px;
      margin-left: 10px;
  }
 
  img {
-     width: 275px;
+     width: 350px;
      height: 200px;
      opacity: 100%;
  }
@@ -219,7 +219,7 @@ h1 {
  }
 
  .cards {
-     width: 275px;
+     width: 350px;
      background: var(--body);
      margin-bottom: 20px;
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -242,13 +242,73 @@ h1 {
     display: flex;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    margin-top: 50px;
 }
 
 .slide {
-    width: 5px;
+    width: 7px;
     flex-shrink: 0;
     height: 100%;
 }
+
+.btn {
+    display: block;
+    background: var(--btncolor);
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 20px 30px;
+    margin: -60px 100px 30px 100px ;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+/* SEKTION 3 - Kompetencer/Interesser*/
+
+.skills{
+    background: var(--maincolor);
+    height: 380px;
+    margin: 10px;
+}
+
+.skills .h1 {
+    margin-bottom: -20px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+hr.solid {
+    border: none;
+    height: 1px;
+    background: #3c3c3c;
+    margin: 40px;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+.skills ul {
+    padding-top: 20px;
+
+}
+
+.skills li {
+    color: var(--text-color);
+    font-size: 20px;
+    font-family: var(--p-text);
+    list-style: none;
+    line-height: 3em;
+    letter-spacing: 1.5px;
+}
+
+.skills li:before{
+    content: "\2713";
+    margin-right: 10px;
+}
+
+
+
+
+
 
  /* Om mig/Kontaktside */
 
