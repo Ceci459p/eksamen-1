@@ -346,10 +346,10 @@ hr.solid {
     font-family: var(--p-text);
      font-size: 16px;
      margin-top: 7px;
-     margin: 10px;
      line-height: 1.5em;
      letter-spacing: 1.5px;
      margin: 25px;
+
 }
 
  .contacts {
@@ -388,8 +388,12 @@ hr.solid {
     float: left;
     margin-top: -10px;
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     cursor: pointer;
+ }
+
+ .p-container {
+     margin-bottom: 90px;
  }
 
 
