@@ -237,7 +237,18 @@ h1 {
  }
 
 /*slideshow - forside*/
+.slider {
+    height: 300px;
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
 
+.slide {
+    width: 5px;
+    flex-shrink: 0;
+    height: 100%;
+}
 
  /* Om mig/Kontaktside */
 
