@@ -325,8 +325,6 @@ hr.solid {
 }
 
 
-
-
  /* Om mig/Kontaktside */
 
 .image-container {
@@ -371,7 +369,7 @@ hr.solid {
      margin-bottom: 50px;
  }
 
- /* PROJEKTER*/
+ /* PROJEKTER- extended*/
 
  h4 {
      font-family: var(--h-text);
@@ -396,6 +394,23 @@ hr.solid {
      margin-bottom: 90px;
  }
 
+
+ /*Mine billeder */
+
+ .image-wrapper {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .pics {
+     width: 300px;
+     margin-bottom: 10px;
+ }
 
 
  /*Footer*/
