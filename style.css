@@ -47,7 +47,7 @@ a {
 
 .header ul a {
     display: block;
-    padding: 20px;
+    padding: 30px;
     text-decoration: none;
     font-family: var(--h-text);
     font-style: normal;
@@ -55,7 +55,6 @@ a {
     text-align: center;
     font-size: 20px;
     background: var(--body);
-    
 }
 
 .header .logo {
@@ -63,6 +62,7 @@ a {
     display: block;
     padding-left: 10px;
     margin: 5px;
+
 }
 
 .header .menu-content {
@@ -166,6 +166,7 @@ h1 {
     width: 350px;
     height: 500px;
     margin-left: 30px;
+    margin-top: -40px;
    
 }
 
@@ -179,7 +180,7 @@ h1 {
     font-weight: normal;
  }
 
- hr.hr1{
+ hr.solid{
      border: none;
      height: 1px;
      background: #3c3c3c;
@@ -269,6 +270,7 @@ h1 {
     background: var(--maincolor);
     height: 380px;
     margin: 10px;
+    margin-left: 15px;
 }
 
 .skills .h1 {
@@ -305,12 +307,46 @@ hr.solid {
     margin-right: 10px;
 }
 
+.interests {
+    background: var(--maincolor);
+    height: 300px;
+    margin: 10px;
+    margin-left: 15px;
+    margin-top:-50px;
+}
 
+.interests li {
+    color: var(--text-color);
+    font-size: 20px;
+    font-family: var(--p-text);
+    line-height: 2em;
+    letter-spacing: 1.5px;
+
+}
 
 
 
 
  /* Om mig/Kontaktside */
+
+.me {
+    width: 300px;
+    height: 200px;
+    display:block;
+    margin-top: 30px;
+    position: relative;
+    left: 10%;
+}
+
+.p1 {
+    font-family: var(--p-text);
+     font-size: 16px;
+     margin-top: 7px;
+     margin: 10px;
+     line-height: 1.5em;
+     letter-spacing: 1.5px;
+     margin: 25px;
+}
 
  .contacts {
      width: 40px;
@@ -319,6 +355,7 @@ hr.solid {
      display: flex;
      flex-direction: column;
      margin-bottom: 50px;
+     margin-top: 30px;
  }
 
  .info {
@@ -337,7 +374,7 @@ hr.solid {
 
  .footer-container {
      background: var(--maincolor);
-     height: 60px;
+     height: 80px;
      display: flex;
  }
 
