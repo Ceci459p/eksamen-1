@@ -264,7 +264,7 @@ h1 {
 }
 
 
-/* SEKTION 3 - Kompetencer/Interesser*/
+/*Kompetencer/Interesser*/
 
 .skills{
     background: var(--maincolor);
@@ -336,8 +336,8 @@ hr.solid {
 }
 
 .myimg {
-    width: 290px;
-    height: 200px;
+    width: 350px;
+    height: 250px;
 }
 
 .p1 {
