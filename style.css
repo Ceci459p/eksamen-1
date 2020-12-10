@@ -243,11 +243,13 @@ img {
     height: 30px;
     display: block;
     float: right;
-    margin-top: -10slidepx;
+    margin-top: -10px;
     margin-right: 20px;
     margin-bottom: 20px;
     cursor: pointer;
 }
+
+
 
 
 
@@ -450,6 +452,13 @@ h4 {
     margin-bottom: 90px;
 }
 
+#video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 375px;
+}
+
 
 /*Mine billeder */
 
@@ -538,10 +547,6 @@ h4 {
         display: none;
     }
 
-    .cards {
-        min-height: 615px;
-        margin: 10px;
-    }
 
     /*SEKTION 1 - Intro*/
 
@@ -606,6 +611,10 @@ h4 {
     }
 
 
+    .cards {
+        min-height: 615px;
+        margin: 10px;
+    }
 
     .contacts {
         width: 80px;
@@ -784,6 +793,18 @@ h4 {
         cursor: pointer;
     
     }
+
+    #video-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 700px;
+        height: auto;
+        margin-left: 380px;
+
+    }
+
+
 
 
 
