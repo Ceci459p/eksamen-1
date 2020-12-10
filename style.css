@@ -251,9 +251,6 @@ img {
 
 
 
-
-
-
 /*slideshow - forside*/
 .slider {
     height: 200px;
@@ -261,6 +258,7 @@ img {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     margin-top: 50px;
+
 }
 
 .slide {
@@ -642,6 +640,7 @@ h4 {
         margin-top: 100px;
         margin-left: 300px;
         margin-bottom: 50px;
+        margin-right: 390px;
     }
 
     .slider img {
