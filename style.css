@@ -343,7 +343,6 @@ hr.solid {
 .p1 {
     font-family: var(--p-text);
      font-size: 16px;
-     margin-top: 7px;
      line-height: 1.5em;
      letter-spacing: 1.5px;
      margin: 25px;
@@ -353,7 +352,7 @@ h5 {
     font-size: 20px;
     font-family: var(--h-text);
     padding:0;
-    margin-top:20px;
+    margin-top:40px;
     margin-left: 25px;
 }
 
