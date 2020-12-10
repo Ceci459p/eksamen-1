@@ -531,7 +531,6 @@ h4 {
     .header li a {
         padding: 12px 30px;
         font-size: 20px;
-        background-color: none;
         background-color: var(--maincolor);
         margin-right: 40px;
     }
